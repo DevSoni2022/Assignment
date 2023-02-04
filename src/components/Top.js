@@ -10,7 +10,7 @@ export default function Top({ handleSearch }) {
                 <Header />
             </header>
             <SearchBar handleSearch={handleSearch} />
-            <img src={redSaber} style={{ height: 60, width: 700 }} alt="lightsaber" />
+            {/* <img src={redSaber} style={{ height: 60, width: 700 }} alt="lightsaber" /> */}
         </div>
     );
 }
